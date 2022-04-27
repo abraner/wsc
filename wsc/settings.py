@@ -88,11 +88,10 @@ WSGI_APPLICATION = 'wsc.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'wscdatabase',
-        'USER': 'root',
-        'PASSWORD': 'man2dy',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
+        'NAME': 'abraner$wsc2',
+        'USER': 'abraner',
+        'PASSWORD': 'Lucy2mandy',
+        'HOST': 'abraner.mysql.pythonanywhere-services.com',
 
     }
 }
